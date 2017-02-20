@@ -45,8 +45,8 @@ ages_freq_list = ages_freq_list.sort_values(by='age')
 
 #Plot Using Pygal
 import pygal as pyg
-from pygal.style import Style
-custom_style= Style(major_label_font_size = 8,title_font_size=10)
+#from pygal.style import Style
+#custom_style= Style(major_label_font_size = 8,title_font_size=10)
 
 hist_pyg = pyg.Bar(margin_bottom=200,print_labels=True,width=800, height=600,
                       human_readable=True,show_minor_x_labels=False,
